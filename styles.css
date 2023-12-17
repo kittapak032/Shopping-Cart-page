@@ -1,0 +1,407 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+head {
+    display: none;
+}
+meta {
+    display: none;
+}
+link {
+    display: none;
+}
+body {
+    background-color: rgb(250, 250, 250);
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+/* tab  */
+.logo1 {
+    width: 190px;
+    position: relative;
+    top: 15px;
+    left: 50px;
+}
+.Joblogo {
+    position: relative;
+    top: 5px;
+    left: -150px;
+}
+
+.d00 {
+    position: relative;
+    left: -90px;
+    top: 10px;
+}
+.styled-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid rgb(250, 250, 250);
+    color: #000c39;
+    background-color: rgb(250, 250, 250);
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.d1 {
+    display: flex;
+    position: relative;
+    left: 0px;
+    top: 10px;
+}
+.d01 {
+    display: flex;
+}
+.nsall {
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: -20px;
+}
+.dns {
+    position: relative;
+    left: -22px;
+}
+.ns1 {
+    width: 22px;
+}
+.ns2 {
+    width: 22px;
+}
+
+.warning {
+    position: relative;
+    background-color: rgb(255, 51, 0);
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    color: white;
+    font-size: 15px;
+    left: -7px;
+    top: -4px;
+}
+.pa {
+    position: relative;
+    font-size: 12px;
+    left: -17px;
+    top: -4px;
+    color: white;
+}
+.topic {
+    position: relative;
+    left: 100px;
+    top: 60px;
+}
+
+/* Cart 1 */
+.topic {
+    position: relative;
+    left: 100px;
+    top: 60px;
+}
+
+.container {
+    width: 650px;
+    height: 247px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.dm1 {
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+.m1 {
+    width: 50px;
+    border: 2px solid #012216;
+    padding: 10px;
+    border-radius: 100%;
+}
+.gimg001 {
+    background-color: #5cd9ff;
+    width: 170px;
+    height: 170px;
+    position: relative;
+    left: 90px;
+    top: -35px;
+    border-radius: 20px;
+    background-image: url(lovepik.jpg);
+    background-size: cover;
+}
+.gdimg {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    background-color: #ffffff;
+    height: 26px;
+    border-radius: 2px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.textcon {
+    position: relative;
+    bottom: 120px;
+    left: 110px;
+    color: black;
+}
+.text001 {
+    position: relative;
+    top: -220px;
+    left: 300px;
+}
+div h2 {
+    margin-right: 20px;
+}
+.op {
+    position: relative;
+    left: 120px;
+    top: 30px;
+}
+select {
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+    display: inline-block;
+    background-color: rgb(172, 213, 221);
+}
+.thb {
+    position: relative;
+    left: 5px;
+    top: 20px;
+    font-size: 20px;
+    color: #393939;
+}
+
+/* card02 */
+.container001 {
+    width: 650px;
+    height: 240px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    top: 110px;
+    left: 100px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.aslimg02 {
+    background-color: rgb(191, 126, 23);
+    width: 170px;
+    height: 170px;
+    position: relative;
+    left: 90px;
+    top: -35px;
+    border-radius: 20px;
+    background-image: url(istockphoto.jpg);
+    background-size: cover;
+}
+.slimg02 {
+    position: relative;
+    top: 30px;
+    left: 23px;
+    background-color: #ffffff;
+    height: 28px;
+    border-radius: 8px;
+}
+.textcon {
+    position: relative;
+    bottom: 120px;
+    left: 110px;
+    color: white;
+}
+.text01 {
+    position: relative;
+    top: -220px;
+    left: 300px;
+}
+div h2 {
+    margin-right: 20px ;
+}
+.op {
+    position: relative;
+    left: 120px;
+    top: 30px;
+}
+select {
+    padding: 5px;
+    border-radius: 5px ;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.circle1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+    display: inline-block;
+    background-color: rgb(193, 168, 131);
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 0rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* table03 */
+.containerpay {
+    width: 541px;
+    height: 220px;
+    border: 1px solid #e0e0e0;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 10px;
+    position: relative;
+    top: -380px;
+    left: 860px;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+}
+.texth2 {
+    position: relative;
+    left: 23px;
+    top: 20px;
+}
+
+div h2 {
+    margin-right: 20px;
+}
+.dm02 {
+    position: relative;
+    top: 150px;
+    left: 20px;
+}
+.m02 {
+    position: relative;
+    width: 28px;
+    left: -90px;
+    top: 0px;
+}
+.a1 {
+    position: relative;
+    left: -80px;
+    top: 95px;
+}
+.a2 {
+    position: relative;
+    left: 280px;
+    top: 90px;
+}
+.a3 {
+    position: relative;
+    left: 285px;
+    top: 90px;
+}
+/* ------------------------------------------------------------------------------- */
+input {
+    position: relative;
+    width: 300px;
+    height: 40px;
+    bottom: -145px;
+    right: 160px;
+}
+.btn {
+    position: relative;
+    height: 40px;
+    width: 130px;
+    top: 145px;
+    left: -140px;
+    box-shadow: none;
+    box-shadow: 0 0 0 transparent;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00c997;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.containerpay01 {
+    width: 541px;
+    height: 220px;
+    border: 1px solid #e0e0e0;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-color: #ffffff;
+    padding: 10px;
+    position: relative;
+    top: -380px;
+    left: 860px;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+}
+.text0 {
+    position: relative;
+    font-size: 20px;
+    left: 25px;
+    top: 35px;
+}
+.text1 {
+    position: relative;
+    font-size: 20px;
+    left: 31px;
+    top: 35px;
+}
+.text2 {
+    position: relative;
+    left: 277px;
+    top: 25px;
+    color: #00c997;
+}
+.text3 {
+    position: relative;
+    left: 280px;
+    top: 25px;
+    color: #00c997;
+}
+.btn1 {
+    position: relative;
+    top: 100px;
+    right: 230px;
+    height: 45px;
+    width: 500px;
+    padding: 10px 20px;
+    font-size: 13px;
+    background-color: #00e8ae;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgba(0, 142, 113, 0.75);
+}

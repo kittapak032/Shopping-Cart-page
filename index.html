@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Charm&family=IBM+Plex+Sans+Thai&family=Montserrat:ital,wght@0,500;0,600;0,700;1,300;1,400&family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="https://job-passcard.vercel.app/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
+        <title>Job Passcard</title>
+      </head>
+
+      <body>
+        <hr>
+        <header>
+          <div><img class="logo1" src="./pubic/Logo.png" alt=""></div>
+          <!-- <h1 class="Joblogo"><b>Job</b> Passcard </h1> -->
+          <nav>
+            <div class="d00">
+              <button class="styled-button" fdprocessedid="q15rui">ABOUT US</button>
+              <button class="styled-button" fdprocessedid="vfq9h6">PASSCODE</button>
+              <button class="styled-button" fdprocessedid="lq55pn">PROFILE</button>
+            </div>
+          </nav>
+          <div class="d1">
+            <div class="d01">
+              <div class="nsall">
+                <div class="dns"><img class="ns1" src="./pubic/search_black_24dp.svg" alt=""></div>
+                <div><img class="ns2" src="./pubic/shopping_cart_black_24dp.svg" alt=""></div>
+                <div class="warning"></div>
+                <div class="pa">99</div>
+              </div>
+              <button class="styled-button" fdprocessedid="hhnvisi">LOGIN</button>
+              <button class="styled-button" fdprocessedid="oc3y8a">SIGN UP</button>
+            </div>
+          </div>
+        </header>
+        <hr>
+        <main>
+          <div class="topic">
+            <h1>MyCart</h1>
+          </div>
+          <div class="container">
+            <div class="dm1">
+              <img class="m1" src="./pubic/delete_outline_black_24dp.svg">
+            </div>
+            <div>
+              <div class="gimg001"><img class="gdimg" src="./pubic/file-icon-blue.png"></div> 
+              <!-- <dg1.png> -->
+              <div class="textcon">
+                <h4>Google Docs</h4>
+                <p>Used for business</p>
+              </div>
+              <div class="text001">
+                <h2>Google Docs</h2>
+                <div class="op">
+                  <select id="circleSelect" onchange="drawCircles()" fdprocessedid="ysnkar">
+                    <option value="1">Select...</option>
+                    <option value="2">LV 1-2</option>
+                    <option value="3">LV 2-3</option>
+                    <option value="4">LV 3-4</option>
+                    <option value="4">LV 4-4</option>
+                  </select>
+                </div>
+                <div id="circleContainer">
+                  <div class="circle"></div>
+                  <div class="circle"></div>
+                  <div class="circle"></div>
+                </div>
+                <!-- select1 -->
+                <div class="thb"><p>THB 150</p></div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="container001">
+            <div>
+              <div class="dm1">
+                <img class="m1" src="./pubic/delete_outline_black_24dp.svg">
+              </div>
+              <div class="aslimg02">
+                <img class="slimg02" src="./pubic/file-orange.png">
+              </div>
+              <div class="textcon">
+                <h4>Google Docs</h4>
+                <p>Used for business</p>
+              </div>
+              <div class="text01">
+                <h2>Google Slide</h2>
+                <div class="op">
+                  <select id="circleSelect1" onchange="drawCircles1()" fdprocessedid="iu2l7q">
+                    <option value="1">Select...</option>
+                    <option value="2">LV 1-3</option>
+                    <option value="3">LV 2-3</option>
+                    <option value="4">LV 3-3</option>
+                  </select>
+                </div>
+                <div id="circleContainer1">
+                  <div class="circle1" style="background-color: rgb(180, 144, 102);"></div>
+                  <div class="circle1" style="background-color: rgb(180, 144, 102);"></div>
+                  <div class="circle1" style="background-color: rgb(180, 144, 102);"></div>
+                </div>
+                <!-- select2 -->
+                <div class="thb"><p>THB 150</p></div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="containerpay">
+            <h2 class="texth2">Order</h2>
+            <div class="dm02">
+              <img class="m02" src="./pubic/cupon-icon.png" alt="">
+            </div> 
+    
+            <p class="a1">Subtotal</p>
+            <p class="a2">THB</p>
+            <p class="a3">300</p>
+            <div><input type="text" placeholder=" Promotion code" fdprocessedid="x08mkn"></div>
+            <div><button class="btn" fdprocessedid="vd01xn">Apply</button></div>
+          </div>
+    
+          <div class="containerpay01">
+            <p class="text0">Total</p>
+            <p class="text1">payment</p>
+            <h1 class="text2">THB</h1>
+            <h1 class="text3">300</h1>
+            <div><button class="btn1" fdprocessedid="ezom1a">LOG IN TO CHECKOUT</button></div>
+          </div>
+          <script>
+            function drawCircles() {
+              const selectValue = document.getElementById("circleSelect").value;
+              const circles = document.querySelectorAll(".circle");
+    
+              circles.forEach((circle, index) => {
+                if (index < selectValue - 1) {
+                  circle.style.backgroundColor = "green";
+                } else {
+                  circle.style.backgroundColor = "gray";
+                }
+              });
+            }
+    
+            // เรียกฟังก์ชันเพื่อแสดงวงกลมตามค่าเริ่มต้น
+            drawCircles1();
+          </script>
+          <script>
+            function drawCircles1() {
+              const selectValue = document.getElementById("circleSelect1").value;
+              const circles = document.querySelectorAll(".circle1");
+    
+              circles.forEach((circle1, index) => {
+                if (index < selectValue - 1) {
+                  circle1.style.backgroundColor = "green";
+                } else {
+                  circle1.style.backgroundColor = "gray";
+                }
+              });
+            }
+            drawCircles1();
+          </script>
+        </main>
+      
+    
+    </body>
+
+
+
+
+</html>
